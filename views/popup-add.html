@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/oxygen-slider.css">
+    <link rel="stylesheet" href="../css/oxygen-effects.css">
+    <link rel="stylesheet" href="../css/oxygen-button.css">
+    <link rel="stylesheet" href="../css/popup-add.css">
+  </head>
+  <body class="oxygen-popup">
+    <div class="oxygen-popup-container">
+      <div class="oxygen-popup-header">
+        <div class="oxygen-logo"><img src="../images/logo-oxygen.svg" width="60" alt="Oxygen"/></div>
+        <div class="oxygen-popup-actions">
+          <button title="Sign Out"><i class="material-icons">power_settings_new</i></button>
+          <button title="Close"><i class="material-icons">clear</i></button>
+        </div>
+      </div>
+      <div class="oxygen-popup-content">
+        <p>Submit <em>www.burning-glass.com</em> for crawling?</p>
+        <hr/>
+        <label for="CrawlPriority">Crawl Priority</label>
+        <div class="oxygen-slider">
+          <input id="CrawlPriority" type="range" min="0" max="0"/>
+        </div>
+        <div class="add-cta">
+          <button class="oxygen-button oxygen-button-main ripple-effect" title="Submit this URL for crawling"><i class="material-icons">add</i></button>
+        </div>        
+      </div>
+      <div class="oxygen-popup-footer">
+        <img src="../images/powered-by-bgt.svg" width="98" alt="Power by Burning Glass"/>
+      </div>
+    </div>
+    <script src="../lib/jquery-3.3.1.min.js"></script>
+    <script src="../js/oxygen-slider.js"></script>
+    <script src="../js/oxygen-effects.js"></script>
+    <script src="../js/popup-add.js"></script>
+  </body>
+</html>

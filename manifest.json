@@ -1,0 +1,21 @@
+{
+    "name": "Oxygen Source Portal",
+    "version": "1.0",
+    "description": "This extension allows easy gathering of URLs to crawl for Oxygen.",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    },
+    "icons": {
+        "16": "images/icons/16w/icon-oxygen.png",
+        "32": "images/icons/32w/icon-oxygen.png",
+        "48": "images/icons/48w/icon-oxygen.png",
+        "128": "images/icons/128w/icon-oxygen.png"
+    },
+    "browser_action": {
+        "default_popup": "views/popup-add.html"
+    }
+}

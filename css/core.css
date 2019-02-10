@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.oxygen-popup {
+  background-color: #FAFAFA;
+  font-family: 'Roboto', sans-serif;
+  color: #3F5866;
+}
+
+.oxygen-popup-container {
+  width: 200px;
+}
+
+.oxygen-popup-header {
+  display: flex;
+}
+
+.oxygen-logo {
+  flex: 1 1 auto;
+}
+
+.oxygen-popup-actions button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  color: rgba(0, 0, 0, .4);
+  cursor: pointer;
+}
+
+.oxygen-popup-content {
+  
+}
+
+.oxygen-popup-content p {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+}
+
+em {
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+}
+
+hr {
+  height: 0;
+  border-top: 1px solid #BDD3DE;
+  margin: 20px 0;
+}
+
+.oxygen-popup-footer {
+  text-align: right;
+  padding: 0 6px;
+  margin-top: 20px;
+}
